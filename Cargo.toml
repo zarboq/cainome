@@ -27,7 +27,7 @@ thiserror = "1.0"
 tracing = "0.1.34"
 tracing-subscriber = { version = "0.3.16", features = [ "env-filter", "json" ] }
 url = "2.4.0"
-starknet = "0.11.0"
+starknet = { git = "https://github.com/zarboq/starknet-rs", branch = "pending_simulate"}
 # This version ensures `Felt` can be converted using `FromStr` for command line parsing.
 starknet-types-core = ">=0.1.4"
 
